@@ -4,13 +4,20 @@ This project involves building and deploying a machine learning model to predict
 
 **Table of Contents**
 Problem Definition
+
 Dataset
+
 Exploratory Data Analysis (EDA)
+
 Feature Engineering
+
 Model Training and Tuning
+
 Deployment
-Usage
+
+
 Results and Evaluation
+
 Future Work
 **1. Problem Definition**
 **Background**
@@ -87,3 +94,21 @@ Deployment Preparation:
 
 Created a requirements.txt file for dependencies.
 Designed a Procfile to host the API on platforms like Heroku.
+
+Results and Evaluation
+Performance Metrics
+Metric	Training Set	Validation Set	Test Set
+Accuracy	89.8%	90.2%	90.5%
+Precision (Class 1)	91%	91%	90%
+Recall (Class 1)	100%	99%	74%
+F1-Score (Class 1)	95%	95%	81%
+Future Work
+Improving Model Performance:
+
+Explore ensemble methods like Random Forest or Gradient Boosting.
+Address class imbalance with advanced techniques.
+Scalability:
+
+Deploy the model on cloud platforms (e.g., AWS, Heroku).
+Implement containerization with Docker for portability.
+
